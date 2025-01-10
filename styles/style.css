@@ -1,0 +1,55 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles */
+.most-bgcolor{
+    background-color: #C6E4D6;
+}
+.common-colr1{
+    color: #0E0E0E;
+}
+.common-btncolr{
+    background-color: #006A50;
+}
+
+/* Whole Body */
+body{
+    margin: 24px 160px;
+}
+/* nav bar */
+.nav-bar{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+}
+/* nav color tolor pore korbo */
+
+/* Banner sec */
+.Banner{
+    margin-top: 20px;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 24px;
+
+}
+.content-p{
+    font-size: 24px;
+    font-weight: 500;
+    /* color: #0E0E0E; */
+}
+.content-h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.b-btn{
+    padding: 17px 34px;
+    margin-top: 24px;
+}
