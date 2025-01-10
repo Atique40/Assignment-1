@@ -52,4 +52,74 @@ body{
 .b-btn{
     padding: 17px 34px;
     margin-top: 24px;
+    border-style: none;
+    border-radius: 8px;
+}
+/* pillars */
+
+/* vision sector */
+.Future-vision{
+    margin-top: 80px;
+}
+.vis-head{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.vis-p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.inside-card{
+    padding: 24px;
+}
+.first-card{
+    background-color: #5490F533;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+}
+.secnd-card{
+    background-color: #C6E4D6;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+}
+.third-card{
+    background-color: #F7EBCF;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-text{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 24px 0px 12px 0px;
+    color: #0E0E0ECC;
+}
+.cards-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+}
+.Fcards-btn{
+    background-color: #5490F5;
+    padding: 11px 20px;
+    margin-top: 24px;
+}
+.Scards-btn{
+    background-color: #09A15C;
+    padding: 11px 20px;
+    margin-top: 24px;
+}
+.Tcards-btn{
+    background-color: #FFC239;
+    padding: 11px 20px;
+    margin-top: 24px;
 }
