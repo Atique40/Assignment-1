@@ -30,8 +30,22 @@ body{
     list-style-type: none;
     justify-content: space-between;
 }
-/* nav color tolor pore korbo */
+.name-bd{
+    font-size: 32px;
+    font-weight: 700;
+}
+.sign-btn{
+    padding: 12px 25px;
+    background-color: #F5F5F5;
+    border-style: outset;
+    border-color: #006A50;
+    border-radius: 6px;
+}
+.sign-btn:hover{
+    background-color: #09A15C;
+    cursor: pointer;
 
+}
 /* Banner sec */
 .Banner{
     margin-top: 20px;
@@ -143,11 +157,32 @@ body{
     background-color: violet;
     cursor: pointer;
 }
-
+/* quote */
+.quote-part{
+    padding: 42px 20px;
+    /* background-color: white; */
+    margin: 40px;
+}
+.quote{
+    background-color: white;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px 20px;
+    border-radius: 16px;
+}
+.que{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.dry{
+    margin-bottom: 8px;
+}
 /* recent news */
 .recent h1{
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 .recent{
     margin-top: 80px;
@@ -156,6 +191,7 @@ body{
 .recent p{
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 .recent-img1 img{
     width: 408px;
@@ -320,4 +356,11 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+}
+
+.footer-head{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
 }
