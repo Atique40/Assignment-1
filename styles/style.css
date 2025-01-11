@@ -161,12 +161,21 @@ body{
     font-weight: 400;
 }
 .recent-content button{
-    /* width: 139px;
-    height: 48px; */
+    width: 139px;
+    height: 48px;
     border-radius: 8px;
     border-style: none;
+    margin-top: 58px;
 }
 .recent-first{
+    padding: 48px 56px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 10px 0px 20px; */
+}
+.recent-second{
     padding: 48px 56px;
     background-color: #FFFFFF;
     display: flex;
