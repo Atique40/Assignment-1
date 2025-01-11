@@ -19,7 +19,8 @@
 
 /* Whole Body */
 body{
-    margin: 24px 160px;
+    margin: 24px 100px;
+    background-color: #F5F5F5;
 }
 /* nav bar */
 .nav-bar{
@@ -112,14 +113,64 @@ body{
     background-color: #5490F5;
     padding: 11px 20px;
     margin-top: 24px;
+    border-style: none;
+    border-radius: 8px;
 }
 .Scards-btn{
     background-color: #09A15C;
     padding: 11px 20px;
     margin-top: 24px;
+    border-style: none;
+    border-radius: 8px;
 }
 .Tcards-btn{
     background-color: #FFC239;
     padding: 11px 20px;
     margin-top: 24px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/* recent news */
+.recent h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.recent{
+    margin-top: 80px;
+}
+
+.recent p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.recent-img1 img{
+    width: 408px;
+    border-radius: 24px;
+}
+.recent-content{
+    width: 744px;
+    /* margin-left: 20px; */
+}
+.recent-content h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.recent-content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.recent-content button{
+    /* width: 139px;
+    height: 48px; */
+    border-radius: 8px;
+    border-style: none;
+}
+.recent-first{
+    padding: 48px 56px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 10px 0px 20px; */
 }
