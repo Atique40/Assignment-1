@@ -55,6 +55,7 @@ body{
     margin-top: 24px;
     border-style: none;
     border-radius: 8px;
+    color: white;
 }
 /* pillars */
 
@@ -115,6 +116,7 @@ body{
     margin-top: 24px;
     border-style: none;
     border-radius: 8px;
+    color: white;
 }
 .Scards-btn{
     background-color: #09A15C;
@@ -122,6 +124,7 @@ body{
     margin-top: 24px;
     border-style: none;
     border-radius: 8px;
+    color: white;
 }
 .Tcards-btn{
     background-color: #FFC239;
@@ -129,6 +132,7 @@ body{
     margin-top: 24px;
     border-style: none;
     border-radius: 8px;
+    color: white;
 }
 
 /* recent news */
@@ -167,6 +171,7 @@ body{
     border-radius: 8px;
     border-style: none;
     margin-top: 42px;
+    color: white;
 }
 .recent-first{
     padding: 48px 56px;
@@ -223,4 +228,51 @@ body{
 }
 .Donate-card .col{
     background-color: #C6E4D6;
+}
+
+/* News Letter */
+.newsletter{
+    margin-top: 50px;
+}
+.n-cont h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.n-cont p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.news-cont{
+    padding: 40px 100px;
+    border-radius: 20px;
+}
+.email-form input{
+    width: 600px;
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    border-style: none;
+}
+.formSec{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    align-items: center;
+    /* gap: 20px; */
+    /* padding-left: 60px; */
+}
+.form-btn{
+    width: 150px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 11px;
+    color: white;
+    border-style: none;
+}
+.promise{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
