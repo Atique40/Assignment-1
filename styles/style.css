@@ -15,6 +15,7 @@
 }
 .common-btncolr{
     background-color: #006A50;
+    color: #FFFFFF;
 }
 
 /* Whole Body */
@@ -229,7 +230,26 @@ body{
 .Donate-card .col{
     background-color: #C6E4D6;
 }
-
+.donate-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.amout-form input{
+    margin-top: 20px;
+    width: 1032px;;
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    border-style: none;
+    text-align: center;
+}
+.donate-form button{
+    width: 151px;
+    height: 56px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
 /* News Letter */
 .newsletter{
     margin-top: 50px;
